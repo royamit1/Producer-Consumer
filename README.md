@@ -50,7 +50,7 @@ To run the producer-consumer project, follow these steps:
 2. After compilation, execute the program by specifying the path to the configuration file:
 
    ```
-   ./ex3.out path
+   ./main.out path
    ```
 
    - Replace `path` with the actual path to your configuration file.
@@ -98,9 +98,7 @@ The configuration file should follow this format:
 ```
 
 In this example, there are three producers with their respective article production counts and queue sizes, and the final queue size is 3.
-
 Ensure there are spaces between each producer and the final queue size, as indicated above, to correctly parse the configuration file.
-
 Feel free to modify the configuration file to match your specific requirements.
 
 
