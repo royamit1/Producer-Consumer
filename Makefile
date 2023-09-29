@@ -1,10 +1,10 @@
 CC = gcc
 CFLAGS = -pthread
 
-all: ex3.out
+all: main.out
 
-ex3.out: ex3.c
-	$(CC) $(CFLAGS) ex3.c -o ex3.out
+main.out: main.c
+	$(CC) $(CFLAGS) main.c -o main.out
 
 clean:
-	rm -f ex3.out
+	rm -f main.out
